@@ -1,0 +1,7 @@
+[17-May-2024 06:11:12 UTC] PHP Warning:  require_once(C:\Users\HP ProBook\Local Sites\uqode\app\public/wp-includes/version.php): Failed to open stream: No such file or directory in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-load.php on line 62
+[17-May-2024 06:11:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\HP ProBook\Local Sites\uqode\app\public/wp-includes/version.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-load.php:62
+Stack trace:
+#0 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-blog-header.php(13): require_once()
+#1 C:\Users\HP ProBook\Local Sites\uqode\app\public\index.php(17): require('C:\\Users\\HP Pro...')
+#2 {main}
+  thrown in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-load.php on line 62
