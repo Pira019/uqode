@@ -5,3 +5,5 @@ Stack trace:
 #1 C:\Users\HP ProBook\Local Sites\uqode\app\public\index.php(17): require('C:\\Users\\HP Pro...')
 #2 {main}
   thrown in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-load.php on line 62
+[17-May-2024 16:43:34 UTC] PHP Warning:  rename(C:\Windows\TEMP/astra-sites.4.2.4-B0VX2F.tmp,C:\Windows\TEMP/astra-sites.4.2.4.zip): Accès refusé (code: 5) in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-admin\includes\file.php on line 1234
+[17-May-2024 16:43:34 UTC] PHP Warning:  unlink(C:\Windows\TEMP/astra-sites.4.2.4.zip): Resource temporarily unavailable in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-admin\includes\file.php on line 1239
