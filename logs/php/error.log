@@ -7,3 +7,33 @@ Stack trace:
   thrown in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-load.php on line 62
 [17-May-2024 16:43:34 UTC] PHP Warning:  rename(C:\Windows\TEMP/astra-sites.4.2.4-B0VX2F.tmp,C:\Windows\TEMP/astra-sites.4.2.4.zip): Accès refusé (code: 5) in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-admin\includes\file.php on line 1234
 [17-May-2024 16:43:34 UTC] PHP Warning:  unlink(C:\Windows\TEMP/astra-sites.4.2.4.zip): Resource temporarily unavailable in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-admin\includes\file.php on line 1239
+[21-May-2024 02:21:25 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\royal-elementor-addons\modules\advanced-text\widgets\advanced-text.php:815
+Stack trace:
+#0 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\royal-elementor-addons\modules\advanced-text\widgets\advanced-text.php(896): WprAddons\Modules\AdvancedText\Widgets\Advanced_Text->wpr_animated_text()
+#1 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2315): WprAddons\Modules\AdvancedText\Widgets\Advanced_Text->render()
+#2 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(634): Elementor\Controls_Stack->render_by_mode()
+#3 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\core\base\document.php(372): Elementor\Widget_Base->render_content()
+#4 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\royal-elementor-addons\modules\advanced-text\widgets\advanced-text.php on line 815
+[21-May-2024 02:21:26 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\royal-elementor-addons\modules\advanced-text\widgets\advanced-text.php:815
+Stack trace:
+#0 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\royal-elementor-addons\modules\advanced-text\widgets\advanced-text.php(896): WprAddons\Modules\AdvancedText\Widgets\Advanced_Text->wpr_animated_text()
+#1 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2315): WprAddons\Modules\AdvancedText\Widgets\Advanced_Text->render()
+#2 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(634): Elementor\Controls_Stack->render_by_mode()
+#3 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\core\base\document.php(372): Elementor\Widget_Base->render_content()
+#4 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\includes\managers\widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\Users\HP ProBook\Local Sites\uqode\app\public\wp-content\plugins\royal-elementor-addons\modules\advanced-text\widgets\advanced-text.php on line 815
