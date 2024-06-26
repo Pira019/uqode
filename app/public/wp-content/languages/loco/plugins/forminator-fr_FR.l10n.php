@@ -1,0 +1,2 @@
+<?php
+return ['project-id-version'=>'Forminator 1.31.0','report-msgid-bugs-to'=>'https://wordpress.org/support/plugin/build','pot-creation-date'=>'2024-05-28 13:26:33+00:00','mime-version'=>'1.0','content-type'=>'text/plain; charset=UTF-8','content-transfer-encoding'=>'8bit','po-revision-date'=>'2024-06-25 01:46+0000','last-translator'=>'','language-team'=>'Français','x-generator'=>'Loco https://localise.biz/','language'=>'fr_FR','plural-forms'=>'nplurals=2; plural=n > 1;','x-loco-version'=>'2.6.10; wp-6.5.3','messages'=>[]];
