@@ -3,12 +3,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Project-Id-Version: WP Event Manager\n"
 "POT-Creation-Date: 2023-09-06 11:26+0530\n"
-"PO-Revision-Date: 2023-09-06 12:16+0530\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2024-06-25 18:01+0000\n"
+"Language-Team: Français\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Loco https://localise.biz/\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: wp-event-manager.php\n"
@@ -20,6 +20,8 @@ msgstr ""
 "Language: fr_FR\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.10; wp-6.5.3"
 
 #: admin/wp-event-manager-addons.php:21 admin/wp-event-manager-admin.php:142
 msgid "WP Event Manager Add-ons"
@@ -41,12 +43,10 @@ msgstr ""
 #: admin/wp-event-manager-setup.php:301
 #: templates/form-fields/repeated-field.php:23
 #: templates/form-fields/repeated-field.php:81 wp-event-manager.php:422
-
 msgid "Settings"
 msgstr "Paramètres"
 
 #: admin/wp-event-manager-admin.php:137
-
 msgid "WP Event Manager Shortcodes"
 msgstr "Shortcodes du gestionnaire d’événements WP"
 
@@ -103,21 +103,21 @@ msgstr "Votre base de données a été mise à niveau avec succès !"
 #: admin/wp-event-manager-admin.php:318
 msgid ""
 "We've noticed you've been using <strong>WP Event Manager</strong> for some "
-"time now. we hope you love it! We'd be thrilled if you could <strong><a href="
-"\"https://wordpress.org/support/plugin/wp-event-manager/reviews/\" target="
-"\"_blank\">give us a nice rating on WordPress.org!</a></strong> Don't forget "
-"to submit your site to <strong><a href=\"https://wp-eventmanager.com/"
-"showcase/\" target=\"_blank\">our showcase</a></strong> and generate more "
-"traffic from our site."
+"time now. we hope you love it! We'd be thrilled if you could <strong><a "
+"href=\"https://wordpress.org/support/plugin/wp-event-manager/reviews/\" "
+"target=\"_blank\">give us a nice rating on WordPress.org!</a></strong> Don't "
+"forget to submit your site to <strong><a href=\"https://wp-eventmanager."
+"com/showcase/\" target=\"_blank\">our showcase</a></strong> and generate "
+"more traffic from our site."
 msgstr ""
 "Nous avons remarqué que vous utilisez <strong>WP Event Manager</strong> "
 "depuis un certain temps maintenant. Nous espérons que vous l’appréciez ! "
-"Nous serions ravis que vous nous laissiez <strong><a href=\"https://"
-"wordpress.org/support/plugin/wp-event-manager/reviews/\" target=\"_blank"
-"\">nous donner une belle note sur WordPress.org !</a></strong> N’oubliez pas "
-"de soumettre votre site à <strong><a href=\"https://wp-eventmanager.com/"
-"showcase/\" target=\"_blank\">notre vitrine</a></strong> et de générer plus "
-"de trafic à partir de notre site."
+"Nous serions ravis que vous nous laissiez <strong><a href=\"https:"
+"//wordpress.org/support/plugin/wp-event-manager/reviews/\" target=\"_blank\">"
+"nous donner une belle note sur WordPress.org !</a></strong> N’oubliez pas de "
+"soumettre votre site à <strong><a href=\"https://wp-eventmanager."
+"com/showcase/\" target=\"_blank\">notre vitrine</a></strong> et de générer "
+"plus de trafic à partir de notre site."
 
 #: admin/wp-event-manager-admin.php:320
 msgid "Run Setup"
@@ -280,7 +280,6 @@ msgstr "Supprimer"
 
 #: admin/wp-event-manager-cpt.php:592
 #: admin/wp-event-manager-field-editor.php:149
-
 msgid "Email"
 msgstr "E-mail"
 
@@ -472,7 +471,6 @@ msgid "The fields were successfully saved."
 msgstr "Paramètres sauvegardés avec succès."
 
 #: admin/wp-event-manager-field-editor.php:399
-
 msgid "Please try again to save fields."
 msgstr "Veuillez réessayer pour enregistrer les champs."
 
@@ -577,24 +575,20 @@ msgid "General"
 msgstr "Général"
 
 #: admin/wp-event-manager-settings.php:51
-
 msgid "Enable Organizer"
 msgstr "Activer l’organisateur"
 
 #: admin/wp-event-manager-settings.php:52
-
 msgid "Enable the option to show organizers on your events website."
 msgstr ""
 "Activez l’option permettant d’afficher les organisateurs sur le site Web de "
 "vos événements."
 
 #: admin/wp-event-manager-settings.php:60
-
 msgid "Enable Venue"
 msgstr "Activer le lieu"
 
 #: admin/wp-event-manager-settings.php:61
-
 msgid "Enable the option to show event venues on your events website."
 msgstr ""
 "Activez l’option permettant d’afficher les lieux de l’événement sur le site "
@@ -617,24 +611,23 @@ msgid "Google API Key"
 msgstr "Clé API Google"
 
 #: admin/wp-event-manager-settings.php:80
-
 msgid ""
 "If you are going to deal with google map or location then you need Google "
 "API key to retrieve location information for event listings. Also this "
 "Google API key require when you will use <a href=\"https://www.wp-"
-"eventmanager.com/product/wp-event-manager-google-maps/\" target=\"__blank"
-"\">Google Map Addon</a>.  Acquire an API key from the <a href=\"https://"
-"developers.google.com/maps/documentation/geocoding/get-api-key\" target="
-"\"__blank\">Google Maps API developer site</a>. "
+"eventmanager.com/product/wp-event-manager-google-maps/\" target=\"__blank\">"
+"Google Map Addon</a>.  Acquire an API key from the <a href=\"https:"
+"//developers.google.com/maps/documentation/geocoding/get-api-key\" "
+"target=\"__blank\">Google Maps API developer site</a>. "
 msgstr ""
 "Si vous allez traiter avec Google Map ou l’emplacement, vous avez besoin de "
 "la clé API Google pour récupérer les informations de localisation pour les "
 "listes d’événements. De plus, cette clé API Google nécessite le moment où "
 "vous utiliserez <a href=\"https://www.wp-eventmanager.com/product/wp-event-"
 "manager-google-maps/\" target=\"__blank\">Google Map Addon</a>.  Procurez-"
-"vous une clé API sur le <a href=\"https://developers.google.com/maps/"
-"documentation/geocoding/get-api-key\" target=\"__blank\">site du développeur "
-"de l’API Google Maps</a>. "
+"vous une clé API sur le <a href=\"https://developers.google."
+"com/maps/documentation/geocoding/get-api-key\" target=\"__blank\">site du "
+"développeur de l’API Google Maps</a>. "
 
 #: admin/wp-event-manager-settings.php:86
 msgid "Wordpress"
@@ -645,7 +638,6 @@ msgid "\"From\" name"
 msgstr "\"De\" nom"
 
 #: admin/wp-event-manager-settings.php:88
-
 msgid ""
 "If you are going to deal with Registrations or Emails then you need the "
 "sender name appears in outgoing WP Event Manager emails."
@@ -655,7 +647,6 @@ msgstr ""
 "Manager."
 
 #: admin/wp-event-manager-settings.php:94
-
 msgid "wordpress@wordpress.com"
 msgstr "wordpress@wordpress.com"
 
@@ -664,7 +655,6 @@ msgid "\"From\" address"
 msgstr "« De » l’adresse"
 
 #: admin/wp-event-manager-settings.php:96
-
 msgid ""
 "If you are going to deal with Registrations or Emails then you need email "
 "appears in outgoing WP Event Manager emails."
@@ -734,12 +724,10 @@ msgstr ""
 "d'enregistrement des inscriptions)."
 
 #: admin/wp-event-manager-settings.php:143
-
 msgid "Multi-select Event Categories"
 msgstr "Catégories d’événements à sélection multiple"
 
 #: admin/wp-event-manager-settings.php:144
-
 msgid "Enable event category multiselect by default."
 msgstr "Activez la sélection multiple de catégorie d’événements par défaut."
 
@@ -803,17 +791,14 @@ msgstr ""
 "d'événements sélectionnés."
 
 #: admin/wp-event-manager-settings.php:183
-
 msgid "Ticket Prices Filter"
 msgstr "Filtre de prix des billets"
 
 #: admin/wp-event-manager-settings.php:184
-
 msgid "Enable Ticket prices filter for listing page."
 msgstr "Activez le filtre Prix des billets pour la page d’annonce."
 
 #: admin/wp-event-manager-settings.php:185
-
 msgid ""
 "Choose whether to enable ticket prices filter on the event listing page."
 msgstr ""
@@ -955,7 +940,6 @@ msgstr ""
 "événement "
 
 #: admin/wp-event-manager-settings.php:268
-
 msgid "Delete Listings After Finished"
 msgstr "Supprimez les listes après avoir terminé."
 
@@ -970,7 +954,6 @@ msgstr ""
 "fin."
 
 #: admin/wp-event-manager-settings.php:277
-
 msgid "Delete Expired Listings"
 msgstr "Supprimer les annonces expirées"
 
@@ -1027,8 +1010,8 @@ msgstr ""
 
 #: admin/wp-event-manager-settings.php:306
 msgid ""
-"Choose whether to enable categories on the event listing and submission "
-"page. If enabled, it needs to be prior created at the backend."
+"Choose whether to enable categories on the event listing and submission page."
+" If enabled, it needs to be prior created at the backend."
 msgstr ""
 "Choisissez d'activer ou non les catégories sur la page de liste d'événements "
 "et de soumission. S'il est activé, il doit être préalablement créé au niveau "
@@ -1057,12 +1040,10 @@ msgid "Ticket Prices"
 msgstr "Prix ​​es billets d'inscription"
 
 #: admin/wp-event-manager-settings.php:323
-
 msgid "Enable Ticket prices for submission form."
 msgstr "Activez le formulaire Prix des billets pour la soumission."
 
 #: admin/wp-event-manager-settings.php:324
-
 msgid "Choose whether to enable ticket prices on the event submission page."
 msgstr ""
 "Choisissez d’activer ou non les prix des billets sur la page de soumission "
@@ -1211,11 +1192,10 @@ msgid "Date Format"
 msgstr "Format de date"
 
 #: admin/wp-event-manager-settings.php:424
-
 msgid ""
-"This date format will be used at the frontend date display. <a href="
-"\"https://wordpress.org/support/article/formatting-date-and-time/\" target="
-"\"__blank\">For more information click here</a>."
+"This date format will be used at the frontend date display. <a href=\"https:"
+"//wordpress.org/support/article/formatting-date-and-time/\" "
+"target=\"__blank\">For more information click here</a>."
 msgstr ""
 "Ce format de date sera utilisé lors de l’affichage de la date frontale. <a "
 "href=\"https://wordpress.org/support/article/formatting-date-and-time/\" "
@@ -1340,12 +1320,10 @@ msgid "Setup Wizard Introduction"
 msgstr "Présentation de l’assistant de configuration"
 
 #: admin/wp-event-manager-setup.php:173
-
 msgid "Thanks for installing WP Event Manager!"
 msgstr "Merci d’avoir installé WP Event Manager!"
 
 #: admin/wp-event-manager-setup.php:174
-
 msgid ""
 "The Setup wizard helps you create various pages for event submission, event "
 "listings, handing events along with organizers and venue pages."
@@ -1408,7 +1386,6 @@ msgid "Post an Event"
 msgstr "Publier un événement"
 
 #: admin/wp-event-manager-setup.php:201
-
 msgid ""
 "This page allows peoples to add events to your website from the front-end."
 msgstr ""
@@ -1432,7 +1409,6 @@ msgid "Event Dashboard"
 msgstr "Tableau de bord"
 
 #: admin/wp-event-manager-setup.php:210
-
 msgid ""
 "This page allows peoples to manage (edit, delete and duplicate) their own "
 "events from the front-end."
@@ -1628,12 +1604,10 @@ msgid "WP Event Manager"
 msgstr "WP Event Manager"
 
 #: admin/wp-event-manager-shortcode-list.php:40
-
 msgid "WP Event Manager shortcodes"
 msgstr "Shortcodes WP Event Manager"
 
 #: admin/wp-event-manager-shortcode-list.php:45
-
 msgid "Select Plugin"
 msgstr "Sélectionnez Plugin"
 
@@ -1654,12 +1628,10 @@ msgid "Action"
 msgstr "Action"
 
 #: admin/wp-event-manager-shortcode-list.php:71
-
 msgid "The event listings"
 msgstr "Évènements"
 
 #: admin/wp-event-manager-shortcode-list.php:72
-
 msgid ""
 "To display all the event listings, users need to create a new page from the "
 "Pages menu at the Admin Panel and add the shortcode  [events] or can add the "
@@ -1683,12 +1655,10 @@ msgid "View Details"
 msgstr "Voir les détails"
 
 #: admin/wp-event-manager-shortcode-list.php:77
-
 msgid "The event submission form"
 msgstr "Le formulaire de soumission d’événement"
 
 #: admin/wp-event-manager-shortcode-list.php:78
-
 msgid ""
 "To display the Event Submission Form, a user needs to create a new page from "
 "the Pages menu at the Admin Panel and then add the shortcode "
@@ -1699,12 +1669,10 @@ msgstr ""
 "puis ajouter le code abrégé [submit_event_form]."
 
 #: admin/wp-event-manager-shortcode-list.php:83
-
 msgid "The Event Dashboard"
 msgstr "Tableau de bord"
 
 #: admin/wp-event-manager-shortcode-list.php:84
-
 msgid ""
 "You can add an Event Dashboard to a new page by pasting the appropriate "
 "shortcode on the HTML editor.To display an Event Dashboard, users need to "
@@ -1718,12 +1686,10 @@ msgstr ""
 "[event_dashboard]."
 
 #: admin/wp-event-manager-shortcode-list.php:89
-
 msgid "The Single Event Listing"
 msgstr "Liste des événements uniques"
 
 #: admin/wp-event-manager-shortcode-list.php:90
-
 msgid ""
 "The brand new feature of WP Event Manager gives users the right to access "
 "their events on a single page. In case, users want to view their events on a "
@@ -1744,7 +1710,6 @@ msgid "Past Events"
 msgstr "Événements passés"
 
 #: admin/wp-event-manager-shortcode-list.php:96
-
 msgid ""
 "The Past Events Page is dedicated to the users who want to access the "
 "details of all their past events. It allows users to view the list of events "
@@ -1756,12 +1721,10 @@ msgstr ""
 "passé."
 
 #: admin/wp-event-manager-shortcode-list.php:101
-
 msgid "The Event Summary"
 msgstr "Résumé de l'évènement"
 
 #: admin/wp-event-manager-shortcode-list.php:102
-
 msgid ""
 "The brand new feature of WP Event Manager allows users to get a complete "
 "summary of their events. A new page needs to be created from the Admin Panel "
@@ -1773,12 +1736,10 @@ msgstr ""
 "événements."
 
 #: admin/wp-event-manager-shortcode-list.php:107
-
 msgid "Submit Organizer Page"
 msgstr "Page Soumettre l’organisateur"
 
 #: admin/wp-event-manager-shortcode-list.php:108
-
 msgid ""
 "The Submit Organizers Page contains a form in which a user needs to fill in "
 "the details of the event organizers. To set up the Submit Organizer Page, "
@@ -1799,7 +1760,6 @@ msgid "Organizer Dashboard"
 msgstr "Tableau de bord de l'organisateur"
 
 #: admin/wp-event-manager-shortcode-list.php:114
-
 msgid ""
 "The dashboard displays the list of all the organizers created. A user can "
 "add, delete, duplicate organizers from the Organizer Dashboard."
@@ -1815,7 +1775,6 @@ msgid "Event Organizers"
 msgstr "Organisateurs de l’événement"
 
 #: admin/wp-event-manager-shortcode-list.php:120
-
 msgid ""
 "The event Organizer page displays event organizers list in alphabetical "
 "order with an alphabetic filter option. To set up the Event Organizer page, "
@@ -1880,7 +1839,6 @@ msgstr "Utiliser le fichier"
 #: admin/wp-event-manager-writepanels.php:366
 #: admin/wp-event-manager-writepanels.php:373
 #: admin/wp-event-manager-writepanels.php:376
-
 msgid "Upload"
 msgstr "Télécharger"
 
@@ -2619,34 +2577,32 @@ msgid "Enter an email address or website URL"
 msgstr "Saisir une adresse email ou une URL de site"
 
 #: forms/wp-event-manager-form-submit-event.php:149
-
 msgid ""
 "<div class=\"wpem-alert wpem-mt-2 wpem-mb-0 wpem-p-0\">If it doesn't show "
 "organizer(s). Manage your organizer(s) from <a href=\"post-new.php?"
-"post_type=event_organizer\" target=\"_blank\" class="
-"\"wpem_add_organizer_popup wpem-modal-button\" data-modal-id="
-"\"wpem_add_organizer_popup\">here</a></div>"
+"post_type=event_organizer\" target=\"_blank\" "
+"class=\"wpem_add_organizer_popup wpem-modal-button\" data-modal-"
+"id=\"wpem_add_organizer_popup\">here</a></div>"
 msgstr ""
 "<div class=\"wpem-alert wpem-mt-2 wpem-mb-0 wpem-p-0\">S’il n’affiche pas "
 "l’organisateur(s). Gérez votre/vos organisateur(s) à partir <a href=\"post-"
-"new.php?post_type=event_organizer\" target=\"_blank\" class="
-"\"wpem_add_organizer_popup wpem-modal-button\" data-modal-id="
-"\"wpem_add_organizer_popup\">d’ici</a></div>"
+"new.php?post_type=event_organizer\" target=\"_blank\" "
+"class=\"wpem_add_organizer_popup wpem-modal-button\" data-modal-"
+"id=\"wpem_add_organizer_popup\">d’ici</a></div>"
 
 #: forms/wp-event-manager-form-submit-event.php:149
 msgid ""
 "<div class=\"wpem-alert wpem-mt-2 wpem-mb-0 wpem-p-0\">If it doesn't show "
 "organizer(s). Manage your organizer(s) from <a href=\"javascript:void(0)\" "
-"class=\"wpem_add_organizer_popup wpem-modal-button\" data-modal-id="
-"\"wpem_add_organizer_popup\">here</a></div>"
+"class=\"wpem_add_organizer_popup wpem-modal-button\" data-modal-"
+"id=\"wpem_add_organizer_popup\">here</a></div>"
 msgstr ""
 "<div class=\"wpem-alert wpem-mt-2 wpem-mb-0 wpem-p-0\">S’il n’affiche pas "
-"l’organisateur(s). Gérez votre (vos) organisateur(s) à partir <a href="
-"\"javascript:void(0)\" class=\"wpem_add_organizer_popup wpem-modal-button\" "
-"data-modal-id=\"wpem_add_organizer_popup\">d’ici</a></div>"
+"l’organisateur(s). Gérez votre (vos) organisateur(s) à partir <a "
+"href=\"javascript:void(0)\" class=\"wpem_add_organizer_popup wpem-modal-"
+"button\" data-modal-id=\"wpem_add_organizer_popup\">d’ici</a></div>"
 
 #: forms/wp-event-manager-form-submit-event.php:150
-
 msgid ""
 "<div class=\"wpem-alert wpem-mt-2 wpem-mb-0 wpem-p-0\">If it doesn't show "
 "venue(s). Manage your venue(s) from <a href=\"post-new.php?"
@@ -2661,14 +2617,14 @@ msgstr ""
 #: forms/wp-event-manager-form-submit-event.php:150
 msgid ""
 "<div class=\"wpem-alert wpem-mt-2 wpem-mb-0 wpem-p-0\">If it doesn't show "
-"venue(s). Manage your venue(s) from <a href=\"javascript:void(0)\" class="
-"\"wpem_add_venue_popup wpem-modal-button\" data-modal-id="
-"\"wpem_add_venue_popup\">here</a></div>"
+"venue(s). Manage your venue(s) from <a href=\"javascript:void(0)\" "
+"class=\"wpem_add_venue_popup wpem-modal-button\" data-modal-"
+"id=\"wpem_add_venue_popup\">here</a></div>"
 msgstr ""
 "<div class=\"wpem-alert wpem-mt-2 wpem-mb-0 wpem-p-0\">S’il ne montre pas "
 "le(s) lieu(x). Gérez votre (vos) lieu(x) à partir <a href=\"javascript:"
-"void(0)\" class=\"wpem_add_venue_popup wpem-modal-button\" data-modal-id="
-"\"wpem_add_venue_popup\">d’ici</a></div>"
+"void(0)\" class=\"wpem_add_venue_popup wpem-modal-button\" data-modal-"
+"id=\"wpem_add_venue_popup\">d’ici</a></div>"
 
 #: forms/wp-event-manager-form-submit-event.php:158
 msgid "Event title"
@@ -2702,7 +2658,6 @@ msgid "Zip Code"
 msgstr "Code postal"
 
 #: forms/wp-event-manager-form-submit-event.php:198
-
 msgid "Please enter zip code(Area code)"
 msgstr "Veuillez saisir le code postal"
 
@@ -2829,7 +2784,6 @@ msgid "Organizer name"
 msgstr "Nom de l’organisateur"
 
 #: forms/wp-event-manager-form-submit-organizer.php:98
-
 msgid "Enter the name of the organizer"
 msgstr "Entrez le nom de l’organisateur"
 
@@ -3333,7 +3287,6 @@ msgid "Viewed"
 msgstr "Vue"
 
 #: shortcodes/wp-event-manager-shortcodes.php:356
-
 msgid "You need to be signed in to manage your organizer listings."
 msgstr "Vous devez être connecté pour gérer les annonces de vos organisateurs."
 
@@ -3346,12 +3299,10 @@ msgstr "Se connecter"
 #: shortcodes/wp-event-manager-shortcodes.php:398
 #: shortcodes/wp-event-manager-shortcodes.php:533
 #: templates/event-dashboard.php:193
-
 msgid "Details"
 msgstr "Soumettre les détails"
 
 #: shortcodes/wp-event-manager-shortcodes.php:489
-
 msgid "You need to be signed in to manage your venue listings."
 msgstr "Vous devez être connecté pour gérer vos listes de sites."
 
@@ -3364,7 +3315,6 @@ msgid "More info"
 msgstr "En savoir plus"
 
 #: shortcodes/wp-event-manager-shortcodes.php:939
-
 msgid "There are no events."
 msgstr "Événements"
 
@@ -3547,7 +3497,6 @@ msgid "Category"
 msgstr "Catégorie"
 
 #: templates/event-filters.php:99
-
 msgid "Choose an Event Category"
 msgstr "Choisissez une catégorie d’événement"
 
@@ -3602,12 +3551,12 @@ msgstr "Soumettre l’évènement →"
 #: templates/event-registration-email.php:2
 #, php-format
 msgid ""
-"To register for this event <strong>email your details to</strong> <a class="
-"\"event_registration_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+"To register for this event <strong>email your details to</strong> <a "
+"class=\"event_registration_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
 msgstr ""
 "Pour vous inscrire à ce concert, envoyez <strong> vos informations par e-"
-"mail à </strong> <a class=\"event_registration_email\" href=\"mailto:%1$s%2$s"
-"\">%1$s </a>."
+"mail à </strong> <a class=\"event_registration_email\" href=\"mailto:"
+"%1$s%2$s\">%1$s </a>."
 
 #: templates/event-registration-email.php:6
 msgid "Register using webmail: "
@@ -3631,7 +3580,8 @@ msgstr "Outlook"
 
 #: templates/event-registration-url.php:2
 msgid "To register for this event please visit the following URL:"
-msgstr "Pour s’inscrire à ce concert. Veuillez vous rendre à l’URL suivante :"
+msgstr ""
+"Pour s’inscrire à cette activé . Veuillez vous rendre à l’URL suivante :"
 
 #: templates/event-registration.php:8
 msgid "Register for event"
@@ -3671,8 +3621,8 @@ msgstr "Ajouter un lieu"
 msgid ""
 "%s listed successfully. To view your listing <a href=\"%s\">click here</a>."
 msgstr ""
-"%s publiée avec succès. Pour voir votre annonce <a href=« %s »>cliquez ici</"
-"a>."
+"%s publiée avec succès. Pour voir votre annonce <a href=« %s »>cliquez "
+"ici</a>."
 
 #: templates/event-submitted.php:10
 #, php-format
@@ -3846,8 +3796,8 @@ msgid ""
 "%s listed successfully. To view your organizer list <a href=\"%s\">click "
 "here</a>."
 msgstr ""
-"%s bien répertorié. Pour afficher votre annonce <a href=\"%s\">cliquez ici</"
-"a>."
+"%s bien répertorié. Pour afficher votre annonce <a href=\"%s\">cliquez "
+"ici</a>."
 
 #: templates/organizer/organizer-submitted.php:11
 #, php-format
@@ -3882,11 +3832,11 @@ msgstr "Créer un nouveau lieu"
 #: templates/venue/venue-submitted.php:6
 #, php-format
 msgid ""
-"%s listed successfully. To view your venue list <a href=\"%s\">click here</"
-"a>."
+"%s listed successfully. To view your venue list <a href=\"%s\">click here</a>"
+"."
 msgstr ""
-"%s répertorié avec succès. Pour afficher la liste de vos lieux <a href=\"%s"
-"\"> cliquez ici </a>."
+"%s répertorié avec succès. Pour afficher la liste de vos lieux <a "
+"href=\"%s\"> cliquez ici </a>."
 
 #: templates/venue/venue-submitted.php:9
 #, php-format
